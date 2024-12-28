@@ -1,0 +1,196 @@
+/* General styles */
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Header styles */
+header {
+  background-color: #f0f0f0;
+  padding: 1rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav li {
+  margin: 0 1rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+}
+
+.search-bar {
+  position: relative;
+}
+
+.search-bar input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  width: 200px;
+}
+
+.search-bar button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 10px;
+  background: none;
+  border: none;
+}
+
+.user-actions {
+  display: flex;
+  gap: 1rem;
+}
+
+/* Home section styles */
+#home {
+  background-color: #f0f0f0; /* Light blue background */
+  padding: 4rem 0;
+  text-align: center;
+}
+
+.hero-text {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.hero-image {
+  text-align: center;
+}
+
+.hero-image img {
+  max-width: 80%;
+  height: auto;
+}
+
+/* Products section styles */
+#products {
+  padding: 2rem 0;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 2rem;
+}
+
+.product {
+  border: 1px solid #ccc;
+  padding: 1rem;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.product img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Order section styles */
+#order {
+  background-color: #f0f0f0;
+  padding: 2rem 0;
+}
+
+/* Button styles */
+.btn {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  text-decoration: none;
+}
+
+/* Footer styles */
+footer {
+  background-color: #f0f0f0;
+  padding: 1rem 0;
+  text-align: center;
+}
+
+#orderForm {
+  display: grid;
+  grid-template-columns: 1fr 3fr; /* Bagi container menjadi 2 kolom: 1 untuk label, 3 untuk input */
+  grid-gap: 10px;
+}
+
+#orderForm label {
+  text-align: left; /* Rata kanan label */
+}
+
+#orderForm input {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+.image-container {
+  width: 80%; /* Atur lebar gambar sesuai kebutuhan */
+  margin: 0 auto; /* Center the image */
+}
+
+.image-container img {
+  width: 100%; /* Gambar akan mengisi seluruh lebar container */
+  height: auto; /* Mempertahankan aspect ratio gambar */
+}
+main {
+  text-align: center;
+  background-color: #f0f0f0; /* Warna abu-abu muda */
+  color: #000000;
+  padding: 20px; /* Tambahkan padding untuk jarak antara konten dan tepi */
+}
+#orderForm {
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+  margin: 0 auto;
+  background-color: #cfe2ff; /* Warna putih untuk latar belakang form */
+  padding: 20px;
+  border-radius: 10px; /* Memberikan sudut tumpul pada form */
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3); /* Memberikan efek bayangan */
+}
+
+#orderForm label {
+  margin-bottom: 1rem;
+  font-weight: bold; /* Membuat label lebih tebal */
+}
+
+#orderForm input {
+  width: 95%;
+  padding: 10px 20 px;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+#orderForm button {
+  width: 96.5%;
+  background-color: #4caf50; /* Warna hijau untuk tombol */
+  color: #ffffff;
+  padding: 13px 20px;
+  margin-bottom: 1rem;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
